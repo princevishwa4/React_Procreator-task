@@ -1,0 +1,78 @@
+.profile .wrapper { height: auto; }
+
+.profile_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile_heading img {
+    width: 18px;
+    height: 18px;
+}
+
+.profile_detail { 
+    width: 80%; 
+    margin-left: -15px;
+}
+
+.progress_bar_group { margin-top: 12px; }
+
+.progress_bar {
+    height: 6px;
+    margin-top: 10px;
+    background-color: rgb(192, 192, 192);
+    border-radius: 15px;
+}
+
+.progress_bar span {
+    height: 100%;
+    display: block;
+    background-color: #ff6aa2;
+}
+
+.available_space p strong { color: #3c64c7; }
+.button_container { margin: 20px 0 30px; }
+
+.button_container button { 
+    width: 100%; 
+    padding: 13px 40px;
+    border: 1px solid #ff5998;
+    border-radius: 20px;
+    background: transparent;
+    color: #ff5998;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.profile_setting div {
+    padding: 20px 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f7fc;
+}
+
+.profile_setting div:nth-child(2) div {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_setting div:nth-child(2) div span {
+    margin-top: 5px;
+    display: inline-block;
+    color: #7e8494;
+    font-size: 14px;
+}
+
+.profile_setting div p {
+    color: #242833;
+    font-size: 16px;
+}
+
+.profile_setting img {
+    width: 8px;
+    height: 14px;
+}

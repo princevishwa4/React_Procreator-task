@@ -1,0 +1,74 @@
+.banner {
+    padding-top: 20px;
+    margin-top: -15px;
+    background-color: #4274eb; 
+    z-index: 0;
+}
+
+.banner .wrapper {
+    height: auto;
+    padding: 20px 10px; 
+}
+
+h1 { 
+    color: #fff;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+p { 
+    color: #abc3fc; 
+    font-size: 20px;
+}
+
+.available_space strong { 
+    color: #fff !important; 
+    font-size: 24px; 
+}
+
+.available_space p { font-size: 18px; }
+
+.available_space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.available_space img {
+    width: 32px;
+    height: 32px;
+}
+
+.progress_bar_group { margin-top: 12px; }
+
+.progress_bar {
+    height: 6px;
+    margin-top: 10px;
+    background-color: rgb(192, 192, 192);
+    border-radius: 15px;
+}
+
+.progress_bar span {
+    height: 100%;
+    display: block;
+    background-color: #ff6aa2;
+}
+
+.main_section {
+    padding: 20px 0 0 0;
+    border-radius: 50px 50px 0 0;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.main_section .wrapper { width: 90%; margin: 0 auto; }
+.MuiBox-root { margin-left: 0 !important; }
+.MuiTabPanel-root { padding: 0 !important; }
+.MuiCardContent-root { position: relative !important; }
+
+.banner .MuiAvatar-root {
+    position: absolute !important;
+    top: 15px;
+    right: 10px;
+    width: 4px !important;
+    height: 20px !important;
+}

@@ -1,0 +1,32 @@
+.onBoarding {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/Illustration.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.onBoarding .wrapper { position: relative; }
+
+.holder {
+    width: 220px;
+    position: absolute;
+    right: 0;
+    bottom: 0;    
+}
+
+.onBoarding p {
+    color: #3c64c7;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.onBoarding button {
+    border: none;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.onBoarding button img { background: transparent; }

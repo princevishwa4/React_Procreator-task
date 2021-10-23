@@ -1,0 +1,7 @@
+footer .wrapper { height: auto !important; }
+
+footer .MuiButtonBase-root {
+    min-width: 50px !important;
+    padding-right: 0 !important; 
+    padding-left: 0 !important; 
+}

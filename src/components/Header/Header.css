@@ -1,0 +1,26 @@
+header {
+    height: 75px;
+    background: url("../../assets/Path\ Copy\ 8.png") no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+header .wrapper { height: auto; padding: 16px 0 0 0; }
+
+header .wrapper,
+.system {
+    display: flex;
+    justify-content: space-between;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.28px;
+}
+
+.system figure {
+    width: 25px;
+    height: 12px;
+    margin-left: 5px;
+}

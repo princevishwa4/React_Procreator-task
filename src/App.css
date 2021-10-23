@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+img { width: 100%; }
+
+.wrapper {
+  max-width: 1500px;
+  width: 86%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+li { list-style-type: none; }
+
+h2 {
+  margin: 25px 0 15px;
+  color: #345095;
+  font-size: 34px;
+}
+
+#root { display: grid; }
+a { text-decoration: none; }

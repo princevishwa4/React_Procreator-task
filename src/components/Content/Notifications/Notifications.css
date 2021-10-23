@@ -1,0 +1,21 @@
+.notifications .wrapper { height: auto; }
+.notifications .wrapper figure { margin-top: 80px; }
+
+.notifications_content { 
+    width: 275px;
+    margin: 35px auto 100px; 
+    text-align: center; 
+}
+
+.notifications_content h5 {
+    margin-bottom: 10px;
+    color: #345095;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.notifications_content p {
+    color: #636978;
+    font-size: 15px;
+    font-weight: 500;
+}
